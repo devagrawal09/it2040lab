@@ -10,7 +10,7 @@ div#wrapper {
     background-color: #fff;
     min-width: 900px;
     max-width: 2050px;
-    box-shadow: #133926 4px;
+    box-shadow: 4px 4px #133926;
 }
 
 header {
