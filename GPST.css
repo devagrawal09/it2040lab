@@ -123,6 +123,24 @@ main ul {
     list-style-image: url('img/marker.gif');
 }
 
+table {
+  border: 1.5px solid #006600;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5em;
+  border: 1px solid #006600;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #ecf9ec;
+}
+
+h3 {
+  color: #006646;
+}
+
 footer {
     font-size: 75%;
     font-style: italic;
