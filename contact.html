@@ -4,39 +4,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="GPST.css">
+    <link rel="stylesheet" href="gpst-new.css">
 </head>
 <body>
     <div id="wrapper">
         <header>
+          <div class="background home"></div>
+          <div class="foreground">
             <h1>Green Pasture Stable and Training</h1>
-        </header>
-
-        <nav>
-            <ul>
+            
+            <nav>
+              <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="training.html">Training</a></li>
                 <li><a href="board.html">Board</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+              </ul>
+            </nav>
+          </div>
+        </header>
 
-        <main>
+        <main class="card">
             <h2>Contact Green Pastures Stable and Training</h2>
             <h3>Fill out the form below to contact us.</h3>
             <p>Required fields are marked with an asterisk *.</p>
             <form>
-              <label for="FName">*First Name:</label>
-              <input type="text" id="FName" required>
-              <label for="LName">*Last Name:</label>
-              <input type="text" id="LName" required>
-              <label for="Email">*Email:</label>
-              <input type="text" id="Email" size="40" required>
-              <label for="Phone">Phone:</label>
-              <input type="text" id="Phone" maxlength="12">
-              <label for="message">*Message:</label>
+              <label for="FName">*First Name:
+                <input type="text" id="FName" required>
+              </label>
+              <label for="LName">*Last Name:
+                <input type="text" id="LName" required>
+              </label>
+              <label for="Email">*Email:
+                <input type="text" id="Email" size="40" required>
+              </label>
+              <label for="Phone">Phone:
+                <input type="text" id="Phone" maxlength="12">
+              </label>
+              <label for="message">*Message:
               <textarea id="message" cols="30" rows="2" required></textarea>
-              <input type="submit" value="Submit">
+              </label>
+                <input type="submit" value="Submit">
             </form>
         </main>
 
